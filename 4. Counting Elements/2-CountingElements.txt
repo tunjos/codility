@@ -1,0 +1,13 @@
+// Solution Pair A[i], B[i]
+// d = sum_b - sum_a
+// d = d / 2
+
+// sum_a + B[i] - A[i] = sum_b + A[i] - B[i]
+// sum_a + 2B[i] - 2A[i] = sum_b - sum_a
+// 2B[i] - 2A[i] = sum_b - sum_a
+// B[i] - A[i] = (sum_b - sum_a) / 2
+// A[i] = B[i] - (sum_b - sum_a) / 2
+// A[i] = d
+
+
+// Tip: Can use a Map<Integer, Boolean> or Set<Integer> for counting 
